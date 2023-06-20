@@ -1,0 +1,101 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+}
+
+h2 {
+    color: white;
+}
+
+header {
+    color: white;
+    padding: 2px;
+    padding-left: 10px;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+    background-color: white;
+}
+
+section.produtos {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produto {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid #242424;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.produto p {
+    margin-top: 7px;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0f0f0f;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+}
+
+.valor {
+    font-weight: 800;
+    color: #070707;
+    font-size: 25px;
+}
+
+.produto.azul:hover {
+    box-shadow: 0px 1px 10px #4f5af8;
+}
+
+.produto.vermelha:hover {
+    box-shadow: 0px 1px 10px #f05c5c;
+}
+
+.produto.amarela:hover {
+    box-shadow: 0px 1px 10px #f3f178;
+}
+
+section.produtos img {
+    width: 240px;
+    height: 150px;
+    border-radius: 10px;
+
+}
