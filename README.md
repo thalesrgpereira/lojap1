@@ -7,6 +7,6 @@ criativos.
 
 https://thalesrgpereira.github.io/lojap1
 
-Equipe:
-  Thales
-  Enoque
+>Equipe:
++  Thales
++  Enoque
